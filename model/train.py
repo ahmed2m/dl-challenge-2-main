@@ -171,4 +171,4 @@ if __name__ == "__main__":
         for loss in loss_log:
             f.write(f"{loss}\n")
 # command line arguments
-# python model/train.py -s ../data/source_tokenizer -t ../data/target_tokenizerimport os
+# python model/train.py -s ../data/source_tokenizer -t ../data/target_tokenizer

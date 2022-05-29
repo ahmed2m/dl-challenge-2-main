@@ -1,5 +1,18 @@
 # dl-challenge-2
 
+## Instructions
+
+- run `pip install -r requirements.txt`
+
+### For tokenization:
+`python data/tokenization.py`
+
+### For training:
+`python model/train.py -s ../data/source_tokenizer -t ../data/target_tokenizer`
+
+### For predicting:
+`python predict.py -i data/example_input.txt -o model_pred.txt`
+
 ```
 ├── data
 │   ├── datagen.py
