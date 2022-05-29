@@ -43,7 +43,7 @@ def predict(input, target):
     # model.eval()
     # with torch.no_grad():
     output = model(input, target)
-    print(output.shape)
+
     return output.argmax(dim=2).tolist()
 
 
@@ -86,10 +86,9 @@ if __name__ == "__main__":
         device=device,
     ).to(torch.long)
     output = predict(tokenized_source, target)
-    print(target_tokenizer.decode(output[0]))
+
     target_output = target_tokenizer.batch_decode(output)
     target_output = [x.replace("[END]", "") for x in target_output]
-
     with open(args.output, "w") as f:
-        for line in target_output:
-            f.write(f"{line}\n")
+        for iline, oline in zip(lines, target_output):
+            f.write(f"{iline.replace('[STR]','').replace('[END]',' ')} {oline}\n")
