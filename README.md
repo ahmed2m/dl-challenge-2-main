@@ -1,5 +1,6 @@
 # dl-challenge-2
 
+```
 ├── data
 │   ├── datagen.py
 │   ├── data.txt
@@ -22,3 +23,4 @@
 │   ├── predict.py          # predict script
 │   └── train.py            # train script
 └── README.md
+```
