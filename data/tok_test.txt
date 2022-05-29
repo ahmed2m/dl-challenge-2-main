@@ -1,0 +1,17 @@
+[WED] [JAN] [False] [180] 1-1-1800
+[THU] [JAN] [False] [180] 1-1-1801
+[FRI] [JAN] [False] [180] 1-1-1802
+[SAT] [JAN] [False] [180] 1-1-1803
+[SUN] [JAN] [True] [180] 1-1-1804
+[TUE] [JAN] [False] [180] 1-1-1805
+[WED] [JAN] [False] [180] 1-1-1806
+[THU] [JAN] [False] [180] 1-1-1807
+[FRI] [JAN] [True] [180] 1-1-1808
+[SUN] [JAN] [False] [180] 1-1-1809
+[MON] [JAN] [False] [181] 1-1-1810
+[TUE] [JAN] [False] [181] 30-1-1811
+[WED] [JAN] [True] [181] 1-1-1812
+[FRI] [JAN] [False] [181] 1-1-1813
+[SAT] [JAN] [False] [181] 1-1-1814
+[SUN] [JAN] [False] [181] 1-1-1815
+[MON] [JAN] [True] [181] 12-12-1816
