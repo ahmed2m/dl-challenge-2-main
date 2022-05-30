@@ -85,6 +85,6 @@ class Seq2seq(nn.Module):
             if is_training:
                 target_input = target[:, i]
             else:
-                prediction = out.argmax(1)
+                prediction = out.squeeze(0).argmax(1)
                 target_input = prediction
         return outputs

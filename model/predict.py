@@ -42,7 +42,7 @@ def predict(input, target):
     )
     # model.eval()
     # with torch.no_grad():
-    output = model(input, target)
+    output = model(input, target, is_training=False)
 
     return output.argmax(dim=2).tolist()
 
